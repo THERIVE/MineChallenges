@@ -1,0 +1,25 @@
+name: MineChallenges
+author: THExRIVE
+version: 0.0.1
+main: com.minelume.minechallenges.MineChallenges
+load: POSTWORLD
+api-version: 1.13
+depend:
+  - CloudNet-Bridge
+  - CloudNet-CloudPerms
+
+commands:
+  challenges:
+    aliases:
+      - challenge
+  coords:
+  health:
+    aliases:
+      - hp
+  timer:
+  revive:
+  help:
+  time:
+  add:
+  remove:
+  friend:
