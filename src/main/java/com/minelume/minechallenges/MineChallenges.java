@@ -75,8 +75,7 @@ public class MineChallenges extends JavaPlugin {
 
         MineChallenges.plugin = this;
         this.mongoConnection = new MongoConnection();
-        this.mongoConnection.connect("127.0.0.1", "admin", "T6pZUjrRqz0l3LeHx65PQsAjn2uEyF8fmz" +
-                "gJHxCzvUHFtNMyqWAPlqDmScOyweSZ", "admin");
+        this.mongoConnection.connect("127.0.0.1", "user", "password", "db");
         this.mongoDB = new MongoDB(this.mongoConnection, this.mongoConnection.getDatabase("Challenges"),
                 this.mongoConnection.getCollection("Challenges", "Servers"));
         this.storage = new Storage();
