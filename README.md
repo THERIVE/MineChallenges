@@ -3,7 +3,7 @@ Dieser Code wurde wegen der Schließung von MineLume.com veröffentlicht.
 
 Verwendete APIs:
 - CloudNET API (v3)
-- MineCore (MineLume.com Intern)
+- MineCore (MineLume.com Intern -> Nur teilweise beinhaltet)
 - PaperSpigot (1.14.4)
 - MongoDB
 
